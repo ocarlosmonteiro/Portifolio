@@ -1,0 +1,10 @@
+.conteudo_home
+{
+    width: 80%;
+    height: 500px;
+    border-style: double;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

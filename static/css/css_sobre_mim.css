@@ -1,0 +1,39 @@
+.conteudo_page
+{
+    width: 80%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.conteudo_perfil
+{
+    display: flex;
+}
+.foto_perfil
+{
+    width: 27%;
+    height: 27%;
+    margin-top: 15px;
+    margin-left: 15px;    
+}
+.discricao_perfil
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.img_Icone
+{
+    width: 2%;
+    height: 2%;
+    margin: 0 15px;
+}
+.campo_links
+{
+    margin-top: 25px;
+    text-decoration: none;   
+}

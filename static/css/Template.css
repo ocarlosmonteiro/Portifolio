@@ -1,0 +1,66 @@
+html, body 
+{
+    min-height: 100%;  
+    background-color: gray;  
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*CSS TAMPLETE*/
+
+/*CABEÇALHO*/
+header
+{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.navbar li
+{
+    display: inline-block;
+    margin: 0px 5px;
+    margin-left: 25px;      
+}
+.menu li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+/*CORPO DA PÁGINA*/
+.titulo_page
+{
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    text-align: center;
+}
+hr
+{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+       
+}
+
+/*RODAPÉ*/
+footer 
+{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;    
+    bottom: 0px;    
+}
+.rodape_txt
+{
+    color: white;
+    text-align: center;
+    align-items: center;   
+}
