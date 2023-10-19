@@ -1,7 +1,7 @@
 html, body 
 {
     min-height: 100%;  
-    background-color: #FFFFF0;  
+    background-color: #1C1C1C;  
 }
 *{
     padding: 0;
@@ -16,31 +16,46 @@ header
 {
     width: 100%;
     height: 70px;
-    background-color: #1E90FF;
     display: flex;
     align-items: center;
-    border-bottom-left-radius: 150px;
-    border-top-right-radius: 150px;
 }
 .navbar li
 {
     display: inline-block;
-    margin: 0px 5px;
-    margin-left: 30px;      
+    margin: 0px 0px;
+    margin-left: 5vh;        
 }
 .menu li a
 {
-    color: white;
+    color: #FFFFF0;
     text-decoration: none;
-    padding: 15px 15px;
+    font-size: 90%;
+    font-family: 'Cascadia Code', 'Cascadia Mono';
+    text-transform: uppercase;
+    padding: 10px 15px;
 }
-.menu li a:hover
+.menu li:nth-child(1) a
 {
-    background-color: #FFFFF0;
+    border-top-left-radius: 0px;
     border-bottom-left-radius: 150px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
 }
-
-
+.menu li:nth-child(1):hover a
+{
+    text-decoration: underline;
+    color: #00FA9A;
+}
+.menu li:nth-child(2):hover a
+{
+    text-decoration: underline;
+    color: #00BFFF;
+}
+.menu li:nth-child(3):hover a
+{
+    text-decoration: underline;
+    color: #00FA9A;
+}
 
 /*CORPO DA PÁGINA*/
 .titulo_page
